@@ -3,7 +3,7 @@
 package loader
 
 /*
-#cgo CFLAGS: -I/usr/lib/llvm-7/include
-#cgo LDFLAGS: -L/usr/lib/llvm-7/lib -lclang
+#cgo CFLAGS: -I/usr/lib/llvm-8/include
+#cgo LDFLAGS: -L/usr/lib/llvm-8/lib -lclang
 */
 import "C"
