@@ -59,7 +59,7 @@ func TestCompiler(t *testing.T) {
 			continue // TODO: improve CGo
 		}
 		t.Run(path, func(t *testing.T) {
-			runTest(path, tmpdir, "arm--linux-gnueabi", t)
+			runTest(path, tmpdir, "arm--linux-gnueabihf", t)
 		})
 	}
 
@@ -69,7 +69,7 @@ func TestCompiler(t *testing.T) {
 			continue // TODO: improve CGo
 		}
 		t.Run(path, func(t *testing.T) {
-			runTest(path, tmpdir, "aarch64--linux-gnueabi", t)
+			runTest(path, tmpdir, "aarch64--linux-gnu", t)
 		})
 	}
 
